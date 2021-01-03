@@ -1,0 +1,40 @@
+	body {
+		overflow-y: scroll;
+		background-color: gray;
+		margin-top: 100px;
+		margin-left: 100px;
+		margin-right: 50px;
+	}
+    {
+        box-sizing: border-box;
+    }
+	.block {
+		padding-left: 5%;
+	}
+	.column {
+		float: left;
+	}
+	.left {
+		width: 30%;
+		background-color: gray;
+	}
+
+	.right {
+		margin-bottom: 5%;
+		width: 69%;
+		height: 80%;
+		background-color: #575757;
+		border-style: solid;
+		position: fixed;
+		right: 50px;
+		overflow-y: scroll;
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.border {
+		border: 4px solid #000000;
+	}
