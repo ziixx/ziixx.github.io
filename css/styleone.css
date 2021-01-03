@@ -1,4 +1,5 @@
 	body {
+		font-family: consolas;
 		overflow-y: scroll;
 		background-color: gray;
 		margin-top: 100px;
