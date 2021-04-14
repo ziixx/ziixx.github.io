@@ -12,6 +12,12 @@
 	.block {
 		padding-left: 5%;
 	}
+	.blocko {
+		padding-left: 5%;
+		padding-right: 20%;
+		line-height: 200%;
+	}
+
 	.column {
 		float: left;
 	}
