@@ -11,6 +11,7 @@
     }
 	.block {
 		padding-left: 5%;
+		padding-right: 5%
 	}
 	.blocko {
 		padding-left: 5%;
@@ -30,7 +31,7 @@
 		margin-bottom: 5%;
 		width: 69%;
 		height: 80%;
-		background-color: #575757;
+		background-color: #666666;
 		border-style: solid;
 		position: fixed;
 		right: 50px;
@@ -48,7 +49,7 @@
 	/* Style the tab */
 .tab {
   overflow: hidden;
-  background-color: #575757;
+  background-color: #666666;
 }
 
 /* Style the buttons inside the tab */
@@ -77,6 +78,6 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #575757;
+  border: 1px solid #666666;
   border-top: none;
 }

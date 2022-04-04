@@ -1,0 +1,106 @@
+
+
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="css/styleone.css">
+		<title>Home</title>
+		<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	</head>
+
+<body>
+<script src="js/standard.js"></script>
+
+	<div class="row">
+
+        <div class="column left">
+			<a href="index.html">
+				<img src="img/6logo.png" alt="logo">
+			</a>
+			<h3>
+				Welcome to my website.<br>My main interests include philosophy and coding,<br>but I love learning and doing any sort of cool project.<br> I go by Ziixx on the internet.<br>Enjoy your stay.<br>
+			</h3>
+			<a href="https://twitter.com/Ziixxtf" target="_blank">Twitter<br></a>
+			<a href="https://steamcommunity.com/id/Ziixxtf/"  target="_blank">Steam</a>
+			<p>Discord: Ziixx#0787<br>email me: ltkrier314@gmail.com<p>
+		</div>
+
+
+
+			<div class="column right">
+				<div class="block">
+
+
+          <div class="tab">
+            <button class="tablinks active" onclick="clickHandle(event, 'Projects')"  id="defaultOpen">Projects</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Essays')">Essays</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Misc.')">Misc.</button>
+          </div>
+
+          <div id="Games" class="tabcontent">
+
+						<h1>Projects<br></h1>
+						<h2>Fade</h2>
+						<p>a relatively simple platformer; 2 midair jumps + 1 funky mechanic (what the games named after)<br>Only supports Windows</p>
+						<a href="games/fade.html">
+							<img src="img/Banner.JPG" alt="Banner" class="border" style="width: 80%; height: auto;">
+						</a>
+						<!-- <h2>Comptuer Desk</h2>
+						<p>I watched a LTT video about a PC that fits in a desk, and thought I can do that.<br>
+						This has been a cool project that couldnt have been done w/o my dad.</p>
+						<a href="projects/computer-desk.html">
+							<img src="img/ComputerDesk.png" alt="Banner" class="border" style="width: 80%; height: auto;">
+						</a> > -->
+
+          </div>
+
+          <div id="Essays" class="tabcontent">
+						<a href="projects/contradictions.html">
+							<h3>Contradictions; the Ego Against Itself</h3>
+								</a>
+								<p>uh this is a pretty pretentious short essay that I wrote a while ago. Deals with the question of "who am I?".</p>
+          </div>
+
+          <div id="Misc." class="tabcontent">
+            <p> random posts, not sure... </p>
+						<h2>Luck Things</h2>
+						<p>I made Rock Paper Scissors and a coin flip. I don't think this counts as a full game so thats why
+							 its in misc.<br>Only supports Windows</p>
+						<a href="games/Luck_Games.html">
+							<img src="img/RPS_Coin.png" alt="Banner" class="border" style="width: 80%; height: auto;">
+						</a>
+        </div>
+
+        <script>
+        function clickHandle(evt, tabName) {
+          let i, tabcontent, tablinks;
+
+          // This is to clear the previous clicked content.
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+
+          // Set the tab to be "active".
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+
+          // Display the clicked tab and set it to active.
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+
+				document.getElementById("defaultOpen").click();
+
+        </script>
+
+
+				</div>
+			</div>
+    </div>
+</body>
+</html>

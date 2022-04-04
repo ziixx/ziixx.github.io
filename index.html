@@ -3,7 +3,12 @@
 
 <!DOCTYPE html>
 <html>
-
+	<style>
+		mark {
+  		background-color: white;
+  		color: black;
+			}
+	</style>
 	<head>
 		<link rel="stylesheet" href="css/styleone.css">
 		<title>Home</title>
@@ -15,59 +20,79 @@
 
 	<div class="row">
 
-        <div class="column left">
+        <div class="column left" style="width:20%; height:auto;">
 			<a href="index.html">
 				<img src="img/6logo.png" alt="logo">
 			</a>
 			<h3>
-				Welcome to my website,<br>I play games & try to do neat things.<br>I go by Ziixx on the internet,<br>enjoy your stay.<br>
+				Welcome to my website.<br>My main interests include philosophy and coding,<br>but I love learning and doing any sort of cool project.<br> I go by Ziixx on the internet.<br>Enjoy your stay.<br>
 			</h3>
-			<a href="https://z1ixx.itch.io" target="_blank">Itch.io<br></a>
 			<a href="https://twitter.com/Ziixxtf" target="_blank">Twitter<br></a>
 			<a href="https://steamcommunity.com/id/Ziixxtf/"  target="_blank">Steam</a>
-			<p>Discord: Ziixx#0787<br>email me: Ziixxtf2@gmail.com<p>
+			<p>Discord: Ziixx#0787<br>email me: ltkrier314@gmail.com<p>
 		</div>
 
 
 
-			<div class="column right">
+			<div class="column right" style="width: 70%; height: 80%;">
 				<div class="block">
 
 
           <div class="tab">
-            <button class="tablinks active" onclick="clickHandle(event, 'Games')"  id="defaultOpen">Games</button>
-            <button class="tablinks" onclick="clickHandle(event, 'Other Projects')">Other Projects</button>
+            <button class="tablinks active" onclick="clickHandle(event, 'Projects')"  id="defaultOpen">Projects</button>
+            <button class="tablinks" onclick="clickHandle(event, 'Essays')">Essays</button>
             <button class="tablinks" onclick="clickHandle(event, 'Misc.')">Misc.</button>
           </div>
 
-          <div id="Games" class="tabcontent">
-
-						<h1>Games<br></h1>
+          <div id="Projects" class="tabcontent">
+						<h2>Modeling a Protien Story 2022</h2>
+						<p>A research club project culminating in a presentation at the Experimental Biology Conference</p>
+						<a href="projects/MaPS2022.html">
+							<img src="img/ebBanner2022.png" alt="Banner" class="border" style="width: 80%; height: auto;">
+						</a>
+						<h2>Comptuer Desk</h2>
+						<p>I watched a LTT video about a PC that fits in a desk, and thought I can do that.<br>
+						This has been a cool project that couldnt have been done without my dad.</p>
+						<a href="projects/computer-desk.html">
+							<img src="img/ComputerDesk.png" alt="Banner" class="border" style="width: 80%; height: auto;">
+						</a>
 						<h2>Fade</h2>
 						<p>a relatively simple platformer; 2 midair jumps + 1 funky mechanic (what the games named after)<br>Only supports Windows</p>
 						<a href="games/fade.html">
 							<img src="img/Banner.JPG" alt="Banner" class="border" style="width: 80%; height: auto;">
 						</a>
-						<!-- <h2>Comptuer Desk</h2>
-						<p>I watched a LTT video about a PC that fits in a desk, and thought I can do that.<br>
-						This has been a cool project that couldnt have been done w/o my dad.</p>
-						<a href="projects/computer-desk.html">
-							<img src="img/ComputerDesk.png" alt="Banner" class="border" style="width: 80%; height: auto;">
-						</a> > -->
+
 
           </div>
 
-          <div id="Other Projects" class="tabcontent">
-            <p> Working on a desk PC, that'll be here soon</p>
-						<h2>Writings of Mine</h2>
-						<a href="projects/contradictions.html">
-							<h3>Contradictions; the Ego Against Itself</h3>
+          <div id="Essays" class="tabcontent">
+						<a href="essays/fatefreewill.html">
+							<h3><mark>Fate, Free Will, and the Resultant Optimism</mark></h3>
 								</a>
-								<p>uh this is a pretty pretentious short essay. deals with the question of "who am I?".</p>
+						<p>This was not written for a philosophy class, but it pretty much is anyways. This essay compares and contrasts Christianity with Absurdism
+							and concludes that it is fate and free will that give them both their optimism.</p>
+						<a href="essays/DescartesAndElisabeth.html">
+							<h3><mark>An Explication of the Cartesian Self and its Relation to the Body</mark></h3>
+								</a>
+						<p>This is my second philosophy paper. Written for history of philosophy; modern period, It somehow also deals with mental causation with Descartes. I take a different position this time, and is
+							slightly better informed. Also answers questions like "what is a person over time" for Descartes.</p>
+						<a href="essays/mentalCausation.html">
+							<h3><mark>The Mind does not (Affect) Matter</mark></h3>
+								</a>
+						<p>My first actual philosophy paper written for my intro to philosophy class. Discusses mental causation in regards to
+							substance and property dualism.</p>
+						<a href="essays/contradictions.html">
+							<h3><mark>Contradictions; the Ego Against Itself</mark></h3>
+								</a>
+								<p>uh this is a pretty pretentious short essay that I wrote a while ago. Deals with the question of "who am I?".</p>
           </div>
 
           <div id="Misc." class="tabcontent">
             <p> random posts, not sure... </p>
+						<h2>Matrix Editor</h2>
+						<a href="projects/matrix.html">
+							<img src="img/matrixBanner.png" alt="Banner" class="border" style="width: 80%; height: auto;">
+								</a>
 						<h2>Luck Things</h2>
 						<p>I made Rock Paper Scissors and a coin flip. I don't think this counts as a full game so thats why
 							 its in misc.<br>Only supports Windows</p>
@@ -105,6 +130,5 @@
 				</div>
 			</div>
     </div>
-	<p style="position: fixed; right: 50px; bottom: 50px">this is it, there is no more</p>
 </body>
 </html>
