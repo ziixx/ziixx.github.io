@@ -2,7 +2,7 @@
 		font-family: consolas;
 		overflow-y: scroll;
 		background-color: gray;
-		margin-top: 100px;
+		margin-top: 50px;
 		margin-left: 100px;
 		margin-right: 50px;
 	}
@@ -30,7 +30,7 @@
 	.right {
 		margin-bottom: 5%;
 		width: 69%;
-		height: 80%;
+		height: 90%;
 		background-color: #666666;
 		border-style: solid;
 		position: fixed;
