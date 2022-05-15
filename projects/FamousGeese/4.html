@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Famous Geese</title>
+		<link rel="shortcut icon" href="../../img/favicon.png" type="image/png">
+
+		<style>
+			#textInfo {
+  			width: 60%;
+  			padding: 50px 0;
+  			text-align: left;
+  			background-color: lightblue;
+  			margin-top: 20px;
+				display: none;
+			}
+</style>
+	</head>
+
+<body>
+	<center>
+  		<h1 style="font-family:'Times New Roman', Times, serif">Famous Geese</h1>
+
+		  <img src="../../img/geese/4.jpg" alt="Marcus Junius Brutus & Gaius Cassius Longinus">
+
+		<button onclick="showTextInfo()">Toggle Geese Info</button>
+			<div id="textInfo">
+					<h2>Marcus Junius Brutus & Gaius Cassius Longinus</h2>
+					<p>Marcus Junius Brutus (left) is most famous for his betrayl of Caesar and, specifically, the depiction of that moment in the Shakespeare play (E tu Brute?).
+						However, following the assisination, Brutus made two decisions that were arguably just as influential. Against the probing of the Cassius and
+						Marcus Tullius Cicero (his two cloest anti-Caesarian allies) he refused to send all his legions to fight Antony twice instead preferring to "wait it out"
+						and let the Caesarian faction infight. Doing this, Brutus gave Antony a second chance which ultimately saw the demise of Brutus, Cassisus, and Cicero.
+						<br>
+						Gaius Cassius Longinus (right) was a conspirator in the assasination of Caesar. Likely the second most influential assasin, Cassius held much power during the 2nd
+						civil war. Cassius is pictured here trying to convince Brutus to do something.
+						<br>
+						btw, togas (loose fitting cloth) are hard to draw especially on Geese
+						<br>
+						Citation: https://www.youtube.com/watch?v=g8DBd3SkuS8
+				</div>
+
+		<p>
+			<a rel="prev" href="https://ziixx.net/projects/FamousGeese/3.html">< prev</a>
+			&nbsp;
+			<a href="https://ziixx.net/" target="_blank">home</a>
+			&nbsp;
+			<a rel="next" href="https://ziixx.net/projects/FamousGeese/4.html">next ></a>
+		</p>
+
+
+		<script>
+			function showTextInfo() {
+					var x = document.getElementById("textInfo");
+					if (x.style.display === "none") {
+						x.style.display = "block";
+					} else {
+						x.style.display = "none";
+					}
+				}
+			</script>
+	</center>
+</body>
+</html>
