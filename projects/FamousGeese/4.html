@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Famous Geese</title>
-		<link rel="shortcut icon" href="../../img/favicon.png" type="image/png">
+		<link rel="shortcut icon" href="../../img/favicon.png" type="image/png" >
 
 		<style>
 			#textInfo {
@@ -20,7 +20,8 @@
 	<center>
   		<h1 style="font-family:'Times New Roman', Times, serif">Famous Geese</h1>
 
-		  <img src="../../img/geese/4.jpg" alt="Marcus Junius Brutus & Gaius Cassius Longinus">
+		  <img src="../../img/geese/4.jpg" alt="Marcus Junius Brutus & Gaius Cassius Longinus" style="width: 70%; height: auto;">
+			<br>
 
 		<button onclick="showTextInfo()">Toggle Geese Info</button>
 			<div id="textInfo">
@@ -50,10 +51,10 @@
 		<script>
 			function showTextInfo() {
 					var x = document.getElementById("textInfo");
-					if (x.style.display === "none") {
-						x.style.display = "block";
-					} else {
+					if (x.style.display == "block") {
 						x.style.display = "none";
+					} else {
+						x.style.display = "block";
 					}
 				}
 			</script>

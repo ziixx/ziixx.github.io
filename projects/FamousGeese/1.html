@@ -20,7 +20,8 @@
 	<center>
   		<h1 style="font-family:'Times New Roman', Times, serif">Famous Geese</h1>
 
-		  <img src="../../img/geese/2.jpg" alt="Lee Harvey Oswald & John F Kennedy">
+		  <img src="../../img/geese/2.jpg" alt="Lee Harvey Oswald & John F Kennedy" style="width: 70%; height: auto;">
+			<br>
 
 		<button onclick="showTextInfo()">Toggle Geese Info</button>
 			<div id="textInfo">
@@ -30,7 +31,7 @@
 						<br>
 						John F Kennedy (Left) was the president of the United States. His most notable accomplishments and succcesses during this time were the Space Race, The Nuclear Test Ban Treaty,
 						and the Alliance for Progress. Additionally, JFK oversaw the Cuban Missle Crisis and the Bay of Pigs, which, while it didn't result in nuclear war, came awfully close due to, but
-						not limited to escalation on his part. 
+						not limited to escalation on his part.
 				</div>
 
 		<p>
@@ -45,10 +46,10 @@
 		<script>
 			function showTextInfo() {
 					var x = document.getElementById("textInfo");
-					if (x.style.display === "none") {
-						x.style.display = "block";
-					} else {
+					if (x.style.display == "block") {
 						x.style.display = "none";
+					} else {
+						x.style.display = "block";
 					}
 				}
 			</script>
