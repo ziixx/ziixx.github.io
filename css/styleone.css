@@ -36,12 +36,13 @@
 		padding: 1%;
 	}
 
-	@media (max-aspect-ratio: 1.1) {
+	@media (max-aspect-ratio: 1.1){
 		.flex-box {
 			flex-direction: column;
 		}
 		.flex-box-alternating {
 			flex-direction: column;
+			flex-wrap: nowrap;
 		}
 		.alternating {
 			width: 98%;
