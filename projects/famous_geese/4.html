@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Famous Geese</title>
+		<link rel="shortcut icon" href="../../img/favicon.png" type="image/png" >
+
+		<style>
+			#textInfo {
+  			width: 60%;
+  			padding: 50px 0;
+  			text-align: left;
+  			background-color: lightblue;
+  			margin-top: 20px;
+				display: none;
+			}
+</style>
+	</head>
+
+<body>
+	<center>
+  		<h1 style="font-family:'Times New Roman', Times, serif">Famous Geese</h1>
+
+		  <img src="../../img/geese/4.jpg" alt="Marcus Junius Brutus & Gaius Cassius Longinus" style="width: 70%; height: auto;">
+			<p><br></p>
+
+		<button onclick="showTextInfo()">Toggle Geese Info</button>
+			<div id="textInfo">
+					<h2>Marcus Junius Brutus & Gaius Cassius Longinus</h2>
+					<p>Marcus Junius Brutus (left) is most famous for his betrayal of Caesar and, specifically, the depiction of that moment in the Shakespeare play (E tu Brute?).
+						However, following the assisination, Brutus made two decisions that were arguably just as influential. Against the probing of the Cassius and
+						Marcus Tullius Cicero (his two cloest anti-Caesarian allies) he refused to send all his legions to fight Antony twice instead preferring to "wait it out"
+						and let the Caesarian faction infight. Doing this, Brutus gave Antony a second chance which ultimately saw the demise of Brutus, Cassisus, and Cicero.
+						<br>
+						Gaius Cassius Longinus (right) was a conspirator in the assasination of Caesar. Likely the second most influential assasin, Cassius held much power during the 2nd
+						civil war. Cassius is pictured here trying to convince Brutus to do something.
+						<br>
+						btw, togas (loose fitting cloth) are hard to draw especially on Geese
+						<br><br>
+						DISCLAIMER: While I don't knowingly write any incorrect or fallacious facts here, I also have not done extensive research or fact-checking. I have used what I think are reputable sources 
+						and stayed within generally accepted territory. Take everything with a Wikipedia level grain of salt: probably right, no reason for it to be wrong, but could still be wrong. 
+						<br>
+						Citation: https://www.youtube.com/watch?v=g8DBd3SkuS8
+				</div>
+
+		<p>
+			<a rel="prev" href="3.html">< prev</a>
+			&nbsp;
+			<a href="../../index.html" target="_blank">home</a>
+			&nbsp;
+			<a rel="next" href="4.html">next ></a>
+		</p>
+
+
+		<script>
+			function showTextInfo() {
+					var x = document.getElementById("textInfo");
+					if (x.style.display == "block") {
+						x.style.display = "none";
+					} else {
+						x.style.display = "block";
+					}
+				}
+			</script>
+	</center>
+</body>
+</html>
