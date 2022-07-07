@@ -1,0 +1,83 @@
+	body {
+		font-family: consolas;
+		overflow-y: hidden;
+		background-color: black;
+		color: white;
+		margin-top: 2%;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	.flex-box {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		width: 100%
+	}
+	.flex-box-alternating {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		height: 100%;
+	}
+	.left {
+		width: 10vw;
+		background-color: black;
+	}
+
+	.right {
+		width: 50vw;
+		height: 98vh;
+		background-color: black;
+		overflow-y: scroll;
+	}
+	.alternating {
+		width: 48%;
+		padding: 1%;
+	}
+
+	@media (max-aspect-ratio: 1.1) {
+		.flex-box {
+			flex-direction: column;
+		}
+		.flex-box-alternating {
+			flex-direction: column;
+		}
+		.alternating {
+			width: 98%;
+		}
+		.right {
+			width: 100%;
+		}
+		.left {
+			width: 100%;
+		}
+		body {
+			margin-left: 1%;
+			margin-right: 1%;
+		}
+	}
+	.text {
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+
+	.name {
+		font-size: 1.7em;
+	}
+
+	a {
+		text-decoration: none;
+	}
+	a.titl {
+		color: white;
+		text-decoration: underline;
+		text-decoration-thickness: 0.2em;
+		text-decoration-color: #423bbe;
+		transition: color .1s ease-out, text-decoration-color 0.1s ease-out;
+	}
+	a.titl:hover {
+		color: #ff695a;
+		text-decoration-color: #ff695a;
+	}
