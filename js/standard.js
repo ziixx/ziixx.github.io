@@ -7,6 +7,7 @@ window.mobileCheck = function() {
     return check;
   };
 if (window.mobileCheck() == true) {
+
     if (document.getElementById("style").getAttribute("href") == "css/styleone.css") {
     document.getElementById("style").setAttribute("href", "css/styletwo.css")
     } else {

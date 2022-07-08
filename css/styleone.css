@@ -35,6 +35,10 @@
 		width: 48%;
 		padding: 1%;
 	}
+	.singular {
+		width: 98%;
+		padding: 1%;
+	}
 
 	@media (max-aspect-ratio: 1.1) {
 		.flex-box {
