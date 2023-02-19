@@ -67,6 +67,12 @@
 		font-size: 1.3em;
 		line-height: 1.3em;
 	}
+	.preText {
+		margin-top: 10%;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.9em;
+		line-height: 2.1em;
+	}
 
 	.name {
 		font-size: 1.7em;
@@ -85,4 +91,15 @@
 	a.titl:hover {
 		color: #ff695a;
 		text-decoration-color: #ff695a;
+	}
+	a.cite {
+		color: white;
+		text-decoration: underline;
+		text-decoration-thickness: 0.2em;
+		text-decoration-color: #42bc7f;
+		transition: color .1s ease-out, text-decoration-color 0.1s ease-out;
+	}
+	a.cite:hover {
+		color: #e54286;
+		text-decoration-color: #e54286;
 	}
