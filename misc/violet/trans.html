@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>violet</title>
+		<link rel="shortcut icon" href="violet_edge.png" type="image/png">
+
+		<style>
+			#textInfo {
+  			width: 50%;
+  			text-align: left;
+  			background-color: rgb(255, 255, 255);
+				display: none;
+			}
+</style>
+	</head>
+
+<body>
+	<center>
+		<img src="violet_edge.png" alt="violet_img" style="width: 25%; height: auto;">
+        <br>
+		<button onclick="showTextInfo('adjectives')">adjective</button>
+        <button onclick="showTextInfo('name')">name</button>
+        <button onclick="showTextInfo('appositive')">appositive</button>
+        <button onclick="showTextInfo('verb')">verb</button>
+		<div>
+            <img src="adjectives.jpeg" alt="adjectives" id="adjectives" style="display: none; width: 40%; height: auto;">
+            <img src="name.jpeg" alt="name" id="name" style="display: none; width: 30%; height: auto;">
+            <span id="appositive" style="display: none;">, Violet Light 伟光 Thomas Elise Krier, </span>
+			<span id="verb" style="display: none;">is trying new things. (!?)</span>
+		</div>
+
+
+		<script>
+			function showTextInfo(element) {
+					var x = document.getElementById(element);
+					if (x.style.display == "inline") {
+						x.style.display = "none";
+					} else {
+						x.style.display = "inline";
+					}
+				}
+			</script>
+	</center>
+</body>
+</html>
